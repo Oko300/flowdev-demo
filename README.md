@@ -1,30 +1,38 @@
 # flowdev-demo
 
-A demo project built **entirely by AI through FlowDev** — no copy-pasting, no manual file editing.
+> This project was built entirely by AI through **FlowDev** — no copy-pasting required.
 
 ## What is this?
 
-This project was scaffolded from scratch by Claude (via the FlowDev MCP integration). Every file was created, every line was written, and the entire git workflow (add → commit → push) was executed by AI directly inside your editor.
+A minimal Express.js server bootstrapped from scratch by an AI assistant via FlowDev. Every file — from `index.js` to this README — was created, searched, committed, and pushed without the developer touching a keyboard for code.
 
-## What it does
+## Getting Started
 
-A minimal [Express](https://expressjs.com/) HTTP server that:
+1. Install dependencies:
+   ```bash
+   npm install express
+   ```
 
-- Listens on **port 3000**
-- Responds to `GET /` with `"Hello from FlowDev!"`
-- Logs a confirmation message when the server starts
+2. Start the server:
+   ```bash
+   node index.js
+   ```
 
-## Getting started
+3. Open your browser and visit [http://localhost:3000](http://localhost:3000) — you should see:
+   ```
+   Hello from FlowDev!
+   ```
 
-```bash
-npm install
-node index.js
-```
+## Tech Stack
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
+- **Runtime:** Node.js
+- **Framework:** Express.js
+- **Built by:** AI via FlowDev 🤖
 
-## Built with
+## How it was built
 
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- [FlowDev](https://flowdev.ai/) — AI-powered development, no copy-paste required
+1. FlowDev's AI read the empty project structure
+2. Wrote `index.js` with an Express server and a single `GET /` route
+3. Wrote this `README.md`
+4. Searched the codebase to confirm `console.log` was present
+5. Ran `git add`, `git commit`, and `git push` — all without copy-paste
